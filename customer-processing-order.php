@@ -59,7 +59,7 @@ do_action('woocommerce_email_header', $email_heading, $email); ?>
 <tr>
 	<td style="font-family:Geogrotesque,Arial,Verdana,Helvetica,sans-serif;color:#2f3132;font-size:16px;line-height:20px" valign="top" align="center">
 		Great News! Your order is currently being processed. <br> <br>
-		 Once processed you will be provided with a tracking number.
+		Once processed you will be provided with a tracking number.
 	</td>
 </tr>
 </tbody>
@@ -84,10 +84,25 @@ do_action('woocommerce_email_header', $email_heading, $email); ?>
  */
 do_action('woocommerce_email_order_details', $order, $sent_to_admin, $plain_text, $email);
 
-/*
- * @hooked WC_Emails::order_meta() Shows order meta data.
- */
-do_action('woocommerce_email_order_meta', $order, $sent_to_admin, $plain_text, $email);
+?>
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff">
+	<tbody>
+		<tr>
+			<td style="padding:0px 40px 0px 40px" align="center">
+				<?php
+
+				/*
+				* @hooked WC_Emails::order_meta() Shows order meta data.
+				*/
+				do_action('woocommerce_email_order_meta', $order, $sent_to_admin, $plain_text, $email);
+				?>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<?php
 
 /*
  * @hooked WC_Emails::customer_details() Shows customer details

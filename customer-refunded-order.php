@@ -111,7 +111,13 @@ do_action('woocommerce_email_order_details', $order, $sent_to_admin, $plain_text
 	<tbody>
 		<tr>
 			<td style="padding:0px 40px 0px 40px" align="center">
-				<?php do_action('woocommerce_email_order_meta', $order, $sent_to_admin, $plain_text, $email); ?>
+				<?php
+
+				/*
+				* @hooked WC_Emails::order_meta() Shows order meta data.
+				*/
+				do_action('woocommerce_email_order_meta', $order, $sent_to_admin, $plain_text, $email);
+				?>
 			</td>
 		</tr>
 	</tbody>

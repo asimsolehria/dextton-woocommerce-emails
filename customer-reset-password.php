@@ -33,7 +33,7 @@ if (!defined('ABSPATH')) {
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="shortcut icon" href="https://www.brandcart.co.uk/wp-content/uploads/2022/07/Brand-Cart.png" type="image/x-icon">
-	<title>BrandCart</title>
+	<title>Dextton</title>
 
 
 <body>
@@ -88,7 +88,7 @@ if (!defined('ABSPATH')) {
 																																			<tbody>
 																																				<tr>
 																																					<td valign="top" align="center">
-																																						<a href="https://www.brandcart.co.uk/" rel="noreferrer noopener" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://www.astrogaming.com&amp;source=gmail&amp;ust=1607422678058000&amp;usg=AFQjCNFv7o7rLBNDVgrslGBSJxwkpCp0yg"><img src="https://www.brandcart.co.uk/wp-content/uploads/2022/07/Brand-Cart.png" alt="logo_Name" style="display:block;width:300px;max-width:300px" border="0"></a>
+																																						<a href="https://dextton.com/" rel="noreferrer noopener" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://www.astrogaming.com&amp;source=gmail&amp;ust=1607422678058000&amp;usg=AFQjCNFv7o7rLBNDVgrslGBSJxwkpCp0yg"><img src="https://www.brandcart.co.uk/wp-content/uploads/2022/07/Brand-Cart.png" alt="logo_Name" style="display:block;width:300px;max-width:300px" border="0"></a>
 																																					</td>
 																																				</tr>
 																																			</tbody>
