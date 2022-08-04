@@ -80,10 +80,25 @@ do_action('woocommerce_email_header', $email_heading, $email); ?>
  */
 do_action('woocommerce_email_order_details', $order, $sent_to_admin, $plain_text, $email);
 
-/*
- * @hooked WC_Emails::order_meta() Shows order meta data.
- */
-do_action('woocommerce_email_order_meta', $order, $sent_to_admin, $plain_text, $email);
+?>
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff">
+	<tbody>
+		<tr>
+			<td style="padding:0px 40px 0px 40px" align="center">
+				<?php
+
+				/*
+				* @hooked WC_Emails::order_meta() Shows order meta data.
+				*/
+				do_action('woocommerce_email_order_meta', $order, $sent_to_admin, $plain_text, $email);
+				?>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<?php
 
 /*
  * @hooked WC_Emails::customer_details() Shows customer details

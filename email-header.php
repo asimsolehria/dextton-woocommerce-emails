@@ -92,7 +92,7 @@ $email_heading = $name . ' ' . $email_heading;
 																																			<tbody>
 																																				<tr>
 																																					<td valign="top" align="center">
-																																						<a href="https://dextton.com/" rel="noreferrer noopener" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://www.astrogaming.com&amp;source=gmail&amp;ust=1607422678058000&amp;usg=AFQjCNFv7o7rLBNDVgrslGBSJxwkpCp0yg"><img src="https://dextton.com/wp-content/uploads/2022/05/logo_dextton.png" alt="logo_Name" style="display:block;width:300px;max-width:300px" border="0"></a>
+																																						<a href="https://dextton.com/" rel="noreferrer noopener" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://www.astrogaming.com&amp;source=gmail&amp;ust=1607422678058000&amp;usg=AFQjCNFv7o7rLBNDVgrslGBSJxwkpCp0yg"><img src="https://dextton.com/wp-content/uploads/2022/08/Dextton_Banner.webp" alt="logo_Name" style="display:block;width:400px;max-width:400px" border="0"></a>
 																																					</td>
 																																				</tr>
 																																			</tbody>
