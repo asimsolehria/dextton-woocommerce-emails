@@ -45,9 +45,7 @@ foreach ($items as $item_id => $item) :
 
 	<tr>
 		<td style="color:#969696;font-size:12px;font-weight:bold" width="10%" align="left">
-			<?php if ($show_image) {
-				echo wp_kses_post(apply_filters('woocommerce_order_item_thumbnail', $image, $item));
-			} ?>
+			<img src="https://dextton.com/wp-content/uploads/2022/05/cropped-Favicon.png" alt="" width="100">
 		</td>
 		<td style="color:#969696;font-size:12px;font-weight:bold" width="25%" align="center">
 			<table width="100%" cellspacing="0" cellpadding="0" border="0">

@@ -159,7 +159,7 @@ if ($email) {
 		</tr>
 	</tbody>
 </table>
-<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff">
+<!-- <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff">
 	<tbody>
 		<tr>
 			<td style="padding:25px 40px 25px 40px" valign="middle" align="center">
@@ -179,9 +179,7 @@ if ($email) {
 											<td width="20%" valign="middle" align="center">
 												<a href="https://twitter.com/" rel="noreferrer noopener" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://astrogaming.com/twitter&amp;source=gmail&amp;ust=1607422678059000&amp;usg=AFQjCNFa8zQHnHEWVP28m0e5aGQUkwBbIw"><img src="https://ci6.googleusercontent.com/proxy/1oRkwQzGcPtvlWO1h4di_xpNDgOe3jbGANebzEReeLXPxf3kwuAqc-JBdWvQRqNfYhjPZeHIKBKWA7jyFgNj60kdCWJeoZTcZKkwhG-oD68KMCp-h5kGVxJDC732tXngO53IFLTvxd25PaXa7xiLkDXG_CG9bQavmMI=s0-d-e1-ft#https://drh.img.digitalriver.com/DRHM/Storefront/Site/logib2c/pb/images/notifications2019/tw_icon_b.png" alt="Twitter" style="display:block" width="25" border="0"></a>
 											</td>
-											<!-- <td width="20%" valign="middle" align="center">
-												<a href="http://astrogaming.com/youtube" rel="noreferrer noopener" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://astrogaming.com/youtube&amp;source=gmail&amp;ust=1607422678059000&amp;usg=AFQjCNF3MweWsERKCGydK5WE2JXqJCJJpw"><img src="https://ci3.googleusercontent.com/proxy/CQUCTPBuBFtWhcIlwFQTIU4lvA0zxB99ShT2FkpG8vBu14kI2tiO1hHKIJzq4FxFmPPegsm7LvOTnOaD7NrURilwDs6HXBj-f3Ad0WtGhBVVc00SQO9PUl2dda0QV11DUSdh_iHF9KHEvPaABuguab4Q2sDr0pJKtW0=s0-d-e1-ft#https://drh.img.digitalriver.com/DRHM/Storefront/Site/logib2c/pb/images/notifications2019/yt_icon_b.png" alt="YouTube" style="display:block" width="25" border="0"></a>
-											</td> -->
+											
 										</tr>
 									</tbody>
 								</table>
@@ -192,7 +190,7 @@ if ($email) {
 			</td>
 		</tr>
 	</tbody>
-</table>
+</table> -->
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
 	<tbody>
 		<tr>
