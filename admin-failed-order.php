@@ -26,7 +26,7 @@ if (!defined('ABSPATH')) {
 do_action('woocommerce_email_header', $email_heading, $email); ?>
 
 
-<tr>
+<!-- <tr>
 	<td style="padding:0px 0px 30px 0px" align="center">
 		<table cellspacing="0" cellpadding="0" border="0">
 			<tbody>
@@ -56,7 +56,7 @@ do_action('woocommerce_email_header', $email_heading, $email); ?>
 			</tbody>
 		</table>
 	</td>
-</tr>
+</tr> -->
 <tr>
 	<td style="font-family:Geogrotesque,Arial,Verdana,Helvetica,sans-serif;color:#2f3132;font-size:16px;line-height:20px" valign="top" align="center">
 		Payment for order #<?php echo $order->get_id() ?> <br> <br> from <?php echo $order->get_billing_first_name() ?> <?php echo $order->get_billing_last_name() ?> has failed. The order was as follows:

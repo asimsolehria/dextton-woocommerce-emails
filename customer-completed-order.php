@@ -28,7 +28,7 @@ do_action('woocommerce_email_header', $email_heading, $email); ?>
 <!-- <?php /* translators: %s: Customer first name */ ?>
 <p><?php printf(esc_html__('Hi %s,', 'woocommerce'), esc_html($order->get_billing_first_name())); ?></p>
 <p><?php esc_html_e('We have finished processing your order.', 'woocommerce'); ?></p> -->
-<tr>
+<!-- <tr>
 	<td style="padding:0px 0px 30px 0px" align="center">
 		<table cellspacing="0" cellpadding="0" border="0">
 			<tbody>
@@ -58,7 +58,7 @@ do_action('woocommerce_email_header', $email_heading, $email); ?>
 			</tbody>
 		</table>
 	</td>
-</tr>
+</tr> -->
 <tr>
 	<td style="font-family:Geogrotesque,Arial,Verdana,Helvetica,sans-serif;color:#2f3132;font-size:16px;line-height:20px" valign="top" align="center">
 		Great News! Your order is completed. <br> <br>
