@@ -83,7 +83,7 @@ if ($sent_to_admin) {
 					</td>
 				</tr>
 				<?php if ("customer_completed_order" === $email->id) : ?>
-					<tr>
+					<!-- <tr>
 						<td style="font-family:Geogrotesque,Arial,Verdana,Helvetica,sans-serif;color:#2f3132;font-size:13px;line-height:15px;font-weight:normal;padding:0px 0px 6px 0px" align="left">
 							<span style="font-weight:bold">Tracking
 								Number
@@ -91,7 +91,7 @@ if ($sent_to_admin) {
 							<?php echo $tracking_number; ?>
 							(<?php echo $povider; ?>)
 						</td>
-					</tr>
+					</tr> -->
 				<?php endif; ?>
 			</tbody>
 		</table>
@@ -104,9 +104,9 @@ if ($sent_to_admin) {
 								<tbody>
 									<tr>
 										<td bgcolor="#110B95" align="center">
-											<a href="<?php echo $link; ?>" style="font-family:Geogrotesque,Arial,Verdana,Helvetica,sans-serif;padding:19px 36px;border:2px solid #110B95;color:#ffffff;display:inline-block;font-size:13px;font-weight:bold;text-decoration:none" rel="noreferrer noopener" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://astrogaming.narvar.com/astrogaming/tracking/15?tracking_numbers%3D941357036264%26service%3DUG%26ozip%3D11706%26dzip%3D11706%26order_number%3D165156092239&amp;source=gmail&amp;ust=1607422678058000&amp;usg=AFQjCNENpN_d129MlfaG-_8fJnxBg5GCrg">TRACK
-												YOUR
-												ORDER</a>
+											<a href="https://dextton.com/affiliate/generate-link/" style="font-family:Geogrotesque,Arial,Verdana,Helvetica,sans-serif;padding:19px 36px;border:2px solid #110B95;color:#ffffff;display:inline-block;font-size:13px;font-weight:bold;text-decoration:none" rel="noreferrer noopener" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://astrogaming.narvar.com/astrogaming/tracking/15?tracking_numbers%3D941357036264%26service%3DUG%26ozip%3D11706%26dzip%3D11706%26order_number%3D165156092239&amp;source=gmail&amp;ust=1607422678058000&amp;usg=AFQjCNENpN_d129MlfaG-_8fJnxBg5GCrg">
+
+												Start Earning with Dextton | Affiliation</a>
 										</td>
 									</tr>
 								</tbody>

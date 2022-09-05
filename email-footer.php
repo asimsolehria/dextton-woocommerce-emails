@@ -20,7 +20,9 @@ defined('ABSPATH') || exit;
 ?>
 <?php
 global $email;
-$additional_content = $email->get_additional_content();
+if ($email) {
+	$additional_content = $email->get_additional_content();
+}
 
 ?>
 <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff">
@@ -48,8 +50,8 @@ $additional_content = $email->get_additional_content();
 
 
 							<div class="footer" style="max-width: 482px; background: #FFF; color: #808284; font-size:12px; padding: 16px;">
-								<span style="font-weight: 500; display: block; margin-bottom: 4px ">Returns Key Information</span>
-								<span style="display:block; margin-bottom: 1em ">Should you not receive your order within 7 days from the purchase date or you received a faulty or damaged item please contact us via the ‘Contact Us’ page and we will investigate this with our carrier and issue a replacement or refund where appropriate. Please note that we cannot investigate any missing orders until 7 working days have passed for UK deliveries. </span>
+								<span style="font-weight: 800; display: block; margin-bottom: 4px ">Important Considerations!</span>
+								<span style="display:block; margin-bottom: 1em ">While receiving this email notification we highly appreciate your attention towards your entrance to a very premium community. Soon after we receive your order we have 24 hours to do the final checks and then we add it to the Discord server with all the service features. Meanwhile use the following feature : "Dextton | Affiliation" and make profit by sharing Dextton to your network.</span>
 								<!-- <span style="display:block; margin-bottom: 1em ">If you would like to start a return please visit your account <a href="https://link.everlane.com/click/5df6d689e7b48900293055e7/aHR0cHM6Ly93d3cuZXZlcmxhbmUuY29tL2FjY291bnQvb3JkZXJzP3Byb2ZpbGU9NWRmNWE4YzQ3YWNlNWEwZTliN2EyY2E3/5df5a8c47ace5a0e9b7a2ca7C487d3f8e" style="color: #4C4C4B; text-decoration: none ">Orders & Returns</a> page.</span>
 								<span style="font-weight: 500; display: block; margin-bottom: 4px ">Contact Us</span>
 								<span style="display:block; ">

@@ -61,8 +61,8 @@ do_action('woocommerce_email_header', $email_heading, $email); ?>
 </tr>
 <tr>
 	<td style="font-family:Geogrotesque,Arial,Verdana,Helvetica,sans-serif;color:#2f3132;font-size:16px;line-height:20px" valign="top" align="center">
-		Great News! Your order should arrive shortly. <br> <br>
-		Track it anytime using the link below.
+		Great News! Your order is completed. <br> <br>
+		Meanwhile join us using the link below.
 
 	</td>
 </tr>
